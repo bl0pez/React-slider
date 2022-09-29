@@ -21,6 +21,10 @@ body {
     margin: 0 10px;
 }
 
+.slick-list {
+    margin: 0 -10px;
+}
+
 .slick-dots li button:before {
     color: #fff;
     margin-top: 10px;
@@ -29,4 +33,12 @@ body {
 
 .slick-dots li.slick-active button:before {
     color: rgb(177, 177, 177);
+}
+
+/*=== responsive ===*/
+
+@media screen and (max-width: 1024px) {
+    .content {
+        width: 80vw;
+    }
 }
